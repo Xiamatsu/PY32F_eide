@@ -11,6 +11,7 @@ virtualFolder:
     - name: BSP
       files:
         - path: ../BSP/py32f002bxx_ll_Start_Kit.c
+        - path: ../BSP/py32f002bxx_ll_Start_Kit.h
       folders: []
     - name: Common
       files:
@@ -142,7 +143,6 @@ targets:
             one-elf-section-per-data: true
             one-elf-section-per-function: true
             optimization: level-size
-            optimization-lto: true
             warnings: all-warnings
           global:
             $float-abi-type: softfp

@@ -10,12 +10,25 @@
 примеры чисто на CMSIS или библиотеке LL
 ```
 
+### Проверены и Готовы
+```
+LL
+  F002B_vcc_temp      (TX -  PB4) 
+  F002B_vcc_temp_so8  (TX -  PA7) 
+```
+
 ###  PY32F0xx
 
 описание контроллеров можно почитать в шпаргалках<br>
 
-PY32F002A_003_030<br>
-PY32F002B
+[PY32F002A_003_03](https://github.com/Xiamatsu/py32f002a_003_030)<br>
+[PY32F002B](https://github.com/Xiamatsu/py32f002b)
+
+###  JLink
+```
+Описание контроллеров для JLink в папке JLinkDevices<br>
+скопировать содержимое папки в  <USER>\AppData\Roaming\SEGGER\JLinkDevices
+```
 
 ### Примеры
 ```

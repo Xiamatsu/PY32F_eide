@@ -7,7 +7,7 @@
     "buildMode": "fast|multhread",
     "showRepathOnLog": true,
     "threadNum": 16,
-    "rootDir": "c:\\MCU\\PY32xx\\_ll_Proj\\F002B_vcc\\EIDE",
+    "rootDir": "c:\\ACHIP\\Xiamatsu\\PY32F_eide\\_ll_examples\\F002B_vcc_temp\\EIDE",
     "dumpPath": "Debug",
     "outDir": "Debug",
     "incDirs": [
@@ -75,20 +75,20 @@
             "output-format": "elf",
             "remove-unused-input-sections": true,
             "link-scatter": [
-                "c:/MCU/PY32xx/_ll_Proj/F002B_vcc/System/py32f002bx5.ld"
+                "c:/ACHIP/Xiamatsu/PY32F_eide/_ll_examples/F002B_vcc_temp/System/py32f002bx5.ld"
             ]
         }
     },
     "env": {
-        "workspaceFolder": "c:\\MCU\\PY32xx\\_ll_Proj\\F002B_vcc\\EIDE",
+        "workspaceFolder": "c:\\ACHIP\\Xiamatsu\\PY32F_eide\\_ll_examples\\F002B_vcc_temp\\EIDE",
         "workspaceFolderBasename": "EIDE",
-        "OutDir": "c:\\MCU\\PY32xx\\_ll_Proj\\F002B_vcc\\EIDE\\.\\Debug",
+        "OutDir": "c:\\ACHIP\\Xiamatsu\\PY32F_eide\\_ll_examples\\F002B_vcc_temp\\EIDE\\.\\Debug",
         "OutDirRoot": ".",
         "OutDirBase": ".\\Debug",
         "ProjectName": "Test_Vcc",
         "ConfigName": "Debug",
-        "ProjectRoot": "c:\\MCU\\PY32xx\\_ll_Proj\\F002B_vcc\\EIDE",
-        "ExecutableName": "c:\\MCU\\PY32xx\\_ll_Proj\\F002B_vcc\\EIDE\\.\\Debug\\Test_Vcc",
+        "ProjectRoot": "c:\\ACHIP\\Xiamatsu\\PY32F_eide\\_ll_examples\\F002B_vcc_temp\\EIDE",
+        "ExecutableName": "c:\\ACHIP\\Xiamatsu\\PY32F_eide\\_ll_examples\\F002B_vcc_temp\\EIDE\\.\\Debug\\Test_Vcc",
         "ChipPackDir": "",
         "ChipName": "PY32F002Bx5",
         "SYS_Platform": "win32",

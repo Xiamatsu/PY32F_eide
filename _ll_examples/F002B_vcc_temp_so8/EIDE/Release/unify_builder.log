@@ -209,3 +209,54 @@ These source files will be recompiled
 [2025-11-14 23:05:03]	[done]
 	build successfully !
 
+[2025-11-15 11:21:05]	[info] incremental build: 6 source files changed
+These source files will be recompiled
+---
+'c:\ACHIP\Xiamatsu\PY32F_eide\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_ll_utils.c': compiler options has been changed.
+'c:\ACHIP\Xiamatsu\PY32F_eide\_ll_examples\F002B_vcc_temp_so8\BSP\py32f002bxx_ll_Start_Kit.c': compiler options has been changed.
+'c:\ACHIP\Xiamatsu\PY32F_eide\_ll_examples\F002B_vcc_temp_so8\Src\main.c': compiler options has been changed.
+'c:\ACHIP\Xiamatsu\PY32F_eide\_ll_examples\F002B_vcc_temp_so8\Src\py32f002b_it.c': compiler options has been changed.
+'c:\ACHIP\Xiamatsu\PY32F_eide\_ll_examples\F002B_vcc_temp_so8\System\startup_py32f002bxx.s': compiler options has been changed.
+'c:\ACHIP\Xiamatsu\PY32F_eide\_ll_examples\F002B_vcc_temp_so8\System\system_py32f002b.c': compiler options has been changed.
+
+[2025-11-15 11:21:05]	[done]
+	build successfully !
+
+[2025-11-15 11:22:49]	[done]
+	build successfully !
+
+[2025-11-15 11:23:40]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\ACHIP\Xiamatsu\PY32F_eide\_ll_examples\F002B_vcc_temp_so8\BSP\py32f002bxx_ll_Start_Kit.c': dependence 'c:\ACHIP\Xiamatsu\PY32F_eide\_ll_examples\F002B_vcc_temp_so8\EIDE\..\BSP\py32f002bxx_ll_Start_Kit.h' has been changed.
+'c:\ACHIP\Xiamatsu\PY32F_eide\_ll_examples\F002B_vcc_temp_so8\Src\main.c': dependence 'c:\ACHIP\Xiamatsu\PY32F_eide\_ll_examples\F002B_vcc_temp_so8\EIDE\..\BSP\py32f002bxx_ll_Start_Kit.h' has been changed.
+
+[2025-11-15 11:23:41]	[done]
+	build successfully !
+
+[2025-11-15 11:28:51]	[done]
+	build successfully !
+
+[2025-11-15 11:29:41]	[info] incremental build: 5 source files changed
+These source files will be recompiled
+---
+'c:\ACHIP\Xiamatsu\PY32F_eide\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_ll_utils.c': compiler options has been changed.
+'c:\ACHIP\Xiamatsu\PY32F_eide\_ll_examples\F002B_vcc_temp_so8\BSP\py32f002bxx_ll_Start_Kit.c': compiler options has been changed.
+'c:\ACHIP\Xiamatsu\PY32F_eide\_ll_examples\F002B_vcc_temp_so8\Src\main.c': compiler options has been changed.
+'c:\ACHIP\Xiamatsu\PY32F_eide\_ll_examples\F002B_vcc_temp_so8\Src\py32f002b_it.c': compiler options has been changed.
+'c:\ACHIP\Xiamatsu\PY32F_eide\_ll_examples\F002B_vcc_temp_so8\System\system_py32f002b.c': compiler options has been changed.
+
+[2025-11-15 11:29:42]	[done]
+	build successfully !
+
+[2025-11-15 11:31:43]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\ACHIP\Xiamatsu\PY32F_eide\_ll_examples\F002B_vcc_temp_so8\Src\main.c': source file has been changed.
+
+[2025-11-15 11:31:43]	[done]
+	build successfully !
+
+[2025-11-15 11:33:05]	[done]
+	build successfully !
+

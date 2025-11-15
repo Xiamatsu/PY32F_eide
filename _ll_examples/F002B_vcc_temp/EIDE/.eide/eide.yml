@@ -142,7 +142,6 @@ targets:
             one-elf-section-per-data: true
             one-elf-section-per-function: true
             optimization: level-size
-            optimization-lto: true
             warnings: all-warnings
           global:
             $float-abi-type: softfp

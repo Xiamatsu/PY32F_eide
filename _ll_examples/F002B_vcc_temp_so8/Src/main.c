@@ -42,7 +42,7 @@ __IO uint16_t uhADCxConvertedData = VAR_CONVERTED_DATA_INIT_VALUE;
 __IO uint16_t uhADCxConvertedData_Voltage_mVolt = 0;
 
 // константа реального Vref 
-uint16_t VREF_CAL,T30_CAL,T85_CAL;
+uint16_t VREF_CAL,T30_CAL,T105_CAL;
 
 
 /* Private user code ---------------------------------------------------------*/
@@ -97,9 +97,9 @@ int main(void)
   APP_AdcConfig();
  VREF_CAL = *((uint16_t*) 0x1FFF0022);
  T30_CAL = *((uint16_t*) 0x1FFF0114);
- T85_CAL = *((uint16_t*) 0x1FFF0118);
+ T105_CAL = *((uint16_t*) 0x1FFF0118);
 
- Tx = (55 * 10000ul) / (T85_CAL - T30_CAL);
+ Tx = (75 * 10000ul) / (T105_CAL - T30_CAL);
  K_Vdd = (((VREF_CAL>>12) % 16)*1000 + ((VREF_CAL>>8) % 16)*100 + ((VREF_CAL>>4) % 16)*10 + VREF_CAL % 16) * 4096;
 
   /*  ADC automatic self-calibration */
@@ -162,7 +162,7 @@ int main(void)
     ADC_Temp_F = (Tx2 % 10000) / 100; 
 
     printf("VREF_C=0x%04X ADC=%u Vdd=%lumv\n", VREF_CAL, ADC_Vdd, K_Vdd / ADC_Vdd);
-    printf("T30_C=0x%04X T85_C=0x%04X ADC=%04X T=%u.%02u C\n", T30_CAL, T85_CAL, ADC_Temp, ADC_Temp_I, ADC_Temp_F );
+    printf("T30_C=0x%04X T105_C=0x%04X ADC=%04X T=%u.%02u C\n", T30_CAL, T105_CAL, ADC_Temp, ADC_Temp_I, ADC_Temp_F );
     LL_mDelay(300);
   }
 }
