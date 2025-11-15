@@ -7,7 +7,7 @@
     "buildMode": "fast|multhread",
     "showRepathOnLog": true,
     "threadNum": 16,
-    "rootDir": "c:\\MCU\\py32mini\\miniProjects\\F030_Blink\\EIDE",
+    "rootDir": "c:\\ACHIP\\Xiamatsu\\PY32F_eide\\_mini_examples\\F030_Blink\\EIDE",
     "dumpPath": "Project",
     "outDir": "Project",
     "incDirs": [
@@ -69,20 +69,20 @@
             "output-format": "elf",
             "remove-unused-input-sections": true,
             "link-scatter": [
-                "c:/MCU/py32mini/miniProjects/F030_Blink/System/py32f030x6.ld"
+                "c:/ACHIP/Xiamatsu/PY32F_eide/_mini_examples/F030_Blink/System/py32f030x6.ld"
             ]
         }
     },
     "env": {
-        "workspaceFolder": "c:\\MCU\\py32mini\\miniProjects\\F030_Blink\\EIDE",
+        "workspaceFolder": "c:\\ACHIP\\Xiamatsu\\PY32F_eide\\_mini_examples\\F030_Blink\\EIDE",
         "workspaceFolderBasename": "EIDE",
-        "OutDir": "c:\\MCU\\py32mini\\miniProjects\\F030_Blink\\EIDE\\.\\Project",
+        "OutDir": "c:\\ACHIP\\Xiamatsu\\PY32F_eide\\_mini_examples\\F030_Blink\\EIDE\\.\\Project",
         "OutDirRoot": ".",
         "OutDirBase": ".\\Project",
         "ProjectName": "Blink",
         "ConfigName": "Project",
-        "ProjectRoot": "c:\\MCU\\py32mini\\miniProjects\\F030_Blink\\EIDE",
-        "ExecutableName": "c:\\MCU\\py32mini\\miniProjects\\F030_Blink\\EIDE\\.\\Project\\Blink",
+        "ProjectRoot": "c:\\ACHIP\\Xiamatsu\\PY32F_eide\\_mini_examples\\F030_Blink\\EIDE",
+        "ExecutableName": "c:\\ACHIP\\Xiamatsu\\PY32F_eide\\_mini_examples\\F030_Blink\\EIDE\\.\\Project\\Blink",
         "ChipPackDir": "",
         "ChipName": "",
         "SYS_Platform": "win32",
