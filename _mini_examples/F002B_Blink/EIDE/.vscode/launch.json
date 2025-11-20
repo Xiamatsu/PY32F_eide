@@ -14,7 +14,7 @@
             "runToEntryPoint": "main",
             "showDevDebugOutput": "none",
             "servertype": "pyocd",
-            "cmsisPack": "..\\..\\..\\Packs\\EIDE\\PY32F0xx_DFP.pack",
+            "cmsisPack": "..\\..\\..\\Packs\\PY32F0xx_DFP.pack",
             "svdFile": "..\\..\\..\\SVD\\PY32F002Bxx.svd"
         },
         {

@@ -91,10 +91,10 @@ targets:
         baseAddr: "0x08000000"
         bin: ""
         config: .eide/debug.pyocd.yaml
-        otherCmds: '"--pack=..\..\..\Packs\EIDE\PY32F0xx_DFP.pack"'
+        otherCmds: '"--pack=..\..\..\Packs\PY32F0xx_DFP.pack"'
         speed: 4M
         targetName: py32f002bx5
-    uploader: pyOCD
+    uploader: JLink
   Release:
     cppPreprocessAttrs:
       defineList:
@@ -163,7 +163,7 @@ targets:
         baseAddr: "0x08000000"
         bin: ""
         config: .eide/release.pyocd.yaml
-        otherCmds: '"--pack=..\..\..\Packs\EIDE\PY32F0xx_DFP.pack"'
+        otherCmds: '"--pack=..\..\..\Packs\PY32F0xx_DFP.pack"'
         speed: 4M
         targetName: py32f002bx5
-    uploader: pyOCD
+    uploader: JLink

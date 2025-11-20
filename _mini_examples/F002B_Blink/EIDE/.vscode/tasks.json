@@ -25,7 +25,7 @@
             "${ProjectName}.elf",
             "--target=PY32F002Bx5",
             "--frequency=1000000",
-            "--pack=..\\..\\..\\Packs\\EIDE\\PY32F0xx_DFP.pack"
+            "--pack=..\\..\\..\\Packs\\PY32F0xx_DFP.pack"
           ],
           "problemMatcher": [
             "$gcc"

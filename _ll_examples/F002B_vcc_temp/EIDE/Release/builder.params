@@ -2,7 +2,7 @@
     "name": "Test_Vcc",
     "target": "Release",
     "toolchain": "GCC",
-    "toolchainLocation": "C:\\Users\\User\\.eide\\tools\\gcc_arm",
+    "toolchainLocation": "c:\\xpack\\xpack-arm-none-eabi-gcc-14.2.1-1.1",
     "toolchainCfgFile": "c:\\Users\\User\\.vscode\\extensions\\cl.eide-3.26.1\\res\\data\\models/arm.gcc.model.json",
     "buildMode": "fast|multhread",
     "showRepathOnLog": true,
@@ -101,7 +101,7 @@
         "EIDE_BINARIES_VER": "12.1.1",
         "EIDE_MSYS": "C:\\Users\\User\\.eide\\bin\\builder\\msys\\bin",
         "EIDE_PY3_CMD": "C:\\Users\\User\\.eide\\bin\\python36\\python3.exe",
-        "ToolchainRoot": "C:\\Users\\User\\.eide\\tools\\gcc_arm"
+        "ToolchainRoot": "c:\\xpack\\xpack-arm-none-eabi-gcc-14.2.1-1.1"
     },
     "sysPaths": []
 }

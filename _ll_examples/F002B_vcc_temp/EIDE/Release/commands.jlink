@@ -1,0 +1,6 @@
+r
+halt
+loadfile "c:\ACHIP\Xiamatsu\PY32F_eide\_ll_examples\F002B_vcc_temp\EIDE\Release\Test_Vcc.hex"
+r
+go
+exit

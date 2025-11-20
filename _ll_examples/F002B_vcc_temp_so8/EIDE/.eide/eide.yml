@@ -107,7 +107,7 @@ targets:
         otherCmds: '"--pack=..\..\..\Packs\PY32F0xx_DFP.pack"'
         speed: 4M
         targetName: PY32F002Bx5
-    uploader: pyOCD
+    uploader: JLink
   Release:
     cppPreprocessAttrs:
       defineList:
@@ -183,4 +183,4 @@ targets:
         otherCmds: '"--pack=..\..\..\Packs\PY32F0xx_DFP.pack"'
         speed: 4M
         targetName: PY32F002Bx5
-    uploader: pyOCD
+    uploader: JLink
