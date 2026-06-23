@@ -25,6 +25,7 @@
 ├── _ll_examples               # примеры и шаблоны с использованием LL библиотеки
 │   ├── F002B_vcc_temp           # измерение Vcc и температуры (UART TX - PB4)   
 │   ├── F002B_vcc_temp_so8       # измерение Vcc и температуры (UART TX - PA7)   
+│   ├── LPTIM_WakeUp             # тестирование deepsleep режима + LPTIM  (LED - PA0) (F030)   
 │   └── F030_vcc                 # (в разработке)
 ├── _mini_examples             # примеры и шаблоны чисто на CMSIS
 │   ├── F002B_Blink              # (в разработке)   
@@ -49,6 +50,9 @@ LL
                       # вывод на - UART TX PB4   
   F002B_vcc_temp_so8  # тоже самое только для x7 версии - до 105°С
                       # вывод на - UART TX PA7  (soic-8)  
+  LPTIM_WakeUp        # тестирование deepsleep + LPTIM  (LED PA0)
+                      # в цикле  2 сек LED-off  0.5 сек LED-on 
+                      # задержки все в режиме deepsleep на LPTIM                   
 mini
   F002B_LPx           # старт с HSI-min ~2.1 МГц переход на LSI-min 19.7кГц 
                       # тестирование Flash Sleep  
